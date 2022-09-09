@@ -107,9 +107,9 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "小破碗", "year": "2001", "date": "10-17"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2022", "date": "08-01"},
+    //{"type": "节日", "name": "结婚纪念日", "year": "2022", "date": "08-01"},
     //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "07-29"},
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "07-29"},
   ],
 
   /**
@@ -131,9 +131,9 @@ export const config = {
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-08-01"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+    //{"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
-    {"keyword": "sakana_day", date: "2022-01-06"},
+    //{"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
   ],
 
@@ -145,7 +145,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "你在我面前永远都闪闪发光，就像整个星空洒在了你的身上"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
