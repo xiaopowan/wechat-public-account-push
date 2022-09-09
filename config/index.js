@@ -11,7 +11,7 @@ export const config = {
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-   APP_SECRET: "fda7d1a9e941955a87a76a4fb13aef12",
+   APP_SECRET: "22f04b9078637db15fc1fc77cd166d3c",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -33,7 +33,7 @@ export const config = {
       // 想要发送的人的名字
       name: "小破碗",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "obdGg6sQb2thud9dPFC4TXucUgtk",
+      id: "22f04b9078637db15fc1fc77cd166d3c",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Gtk3yjL-HQMvaz9EEzzmUQidpHf6dmr8t2nGMd2vyvk",
       // 所在省份
@@ -125,17 +125,17 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
-  CUSTOMIZED_DATE_LIST: [
+  //CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    //{"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+   // {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
-    {"keyword": "sakana_day", date: "2022-01-06"},
+   //{"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
-  ],
+  //],
 
   /** 插槽 */
 
