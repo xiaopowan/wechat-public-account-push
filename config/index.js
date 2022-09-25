@@ -107,7 +107,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "小破碗", "year": "2001", "date": "11-10"},
-    //{"type": "节日", "name": "结婚纪念日", "year": "2022", "date": "08-01"},
+    {"type": "考试", "name": "最后时间", "year": "2022", "date": "10-23"},
     //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "07-29"},
   ],
