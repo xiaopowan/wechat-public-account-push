@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "obdGg6ibETmrQ-ggiSJdnonaE9yo",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "qo3u28VCRHM9qHSvWevgYkva7i9HAQ5nkAHkCnuHyrY",
+      useTemplateId: "WNbNt2eeyhbSBew4yrdPIIzs6JNrTDbQ2R8VKAZh9xM",
       // 所在省份
       province: "山西",
       // 所在城市
@@ -143,15 +143,15 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
-  SLOT_LIST: [
+  //LOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你在我面前永远都闪闪发光，就像整个星空洒在了你的身上"},
+    //{"keyword": "encourage_oneself", contents: "你在我面前永远都闪闪发光，就像整个星空洒在了你的身上"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+    //{"keyword": "lover_prattle", contents: [
+      //"因为太喜欢你，所以看谁都像是情敌。",
+      //"申请成为你爱里的永久居民。",
+      //"你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      //"遇见你，就好像捡到了100斤的运气",
     ]},
   ],
 
@@ -159,7 +159,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  //LITERARY_PREFERENCE: ""
 
 
 }
